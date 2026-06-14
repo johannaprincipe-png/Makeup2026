@@ -1,55 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="descripcion" content="Trabajo final "/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="NOFOLLOW"/>
-    <meta name="Autor" content="Jackelyn"/>
-    <meta name="keywords" content="Trabajo Final html,css"/>
-    <meta name="lang" content="es"/>
-    <meta name="revisit-after" content="2day"/>
-    <meta name="categoria" content="Trabajo Final"/>
-    <title>Pagina de Incio</title>
-    <!-- Declaracion de ficheros de estilos -->
+    <title>Pagina de Incio| MakeupJackelyn</title>
+
+    <!-- Ficheros de estilos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<!--header contiene la navegacion de la pagina-->
     <header>
-<!--img src contiene el logo de la empresa-->        
-    <img src="images/logo.png" alt="makeupjackelyn" width="150">
-<!--En el Div menu Container, contiene el menu de navegacion-->
+    <!--logo de la empresa-->        
+    <img src="images/logo.png" alt="Logo Makeupjackelyn" width="150">
+
+        <!--Menu de navegacion responsive-->
         <div class="menu container">
+            <input type="checkbox" id="menu">
             <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="">
+                <img src="images/menu.png" class="menu-icono" alt="abrir menu">
             </label>
+
+            <!--Menu de la pagina-->
             <nav class="navbar">
                 <div class="menu-1">
-                    <ul>
+                    <ul>   
                         <li><a href="#">INICIO</a></li>
                         <li><a href="contacto.html">CONTACTOS</a></li>
                         <li><a href="productos.html">PRODUCTOS</a></li>
                         <li><a href="presupuestos.html">PRESUPUESTOS</a></li>
                     </ul>
                 </div>
-                <img class="logo" src="images/Adobe Express - file.png" alt="">
+
+                <!--logo de la empresa-->
+                <img class="logo" src="images/Adobe Express - file (1).png" alt="Logo de la empresa">
+
                 <div class="menu-2">
                     <div class="links">
             <ul>
                 <li><a href="contacto.html">Horarios</a></li>
             </ul>
         </div>
+        
+        <!--Redes Sociales-->
                     <div class="socials">
-                        <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+                        <a href="https://www.facebook.com" target="_blank">
                             <div class="social">
                                 <img src="images/s1.svg" alt="">
                             </div>
                         </a>
-                        <a href="https://x.com/twitt_login?lang=es" target="_blank">
+                        <a href="https://x.com " target="_blank">
                             <div class="social">
                                 <img src="images/s2.svg" alt="">
                             </div>
@@ -79,7 +81,7 @@
                                     sit officia ad placeat et esse assumenda fuga ipsam nisi eos.
                                 </P>
 
-<!--Este Div contiene los botones-->                               
+<!--Este Div contiene los botones de ver y compras en presupuesto y productos-->                               
                                 <div class="botones">
                                     <a href="presupuestos.html" class="btn-1">Comprar</a>
                                     <a href="productos.html" class="btn-1">ver</a>
@@ -101,6 +103,7 @@
                                     officiis architecto corrupti, debitis necessitatibus explicabo commodi recusandae
                                     sit officia ad placeat et esse assumenda fuga ipsam nisi eos.
                                 </P>
+
                                 <div class="botones">
                                     <a href="presupuestos.html" class="btn-1">Comprar</a>
                                     <a href="productos.html" class="btn-1">VER</a>
@@ -139,20 +142,16 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-
     </header>
 
-
-    <!--Foote se usa para crear la parte inferior de la pagina, tambien llamada pie de pagina contiene las redes sociales-->
+    <!--Foote pie de pagina contiene Aviso Legal, direccion y Redes sociales-->
     <footer class="footer container">
     
         <div class="links">
-            <h4>AVISO LEGAL</h4>
+                <h4>AVISO LEGAL</h4>
             <ul>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
+                <li><a href="#">Terminos y Condiciones</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
             </ul>
         </div>
 
@@ -167,9 +166,7 @@
                     </p>
                 </div>
 
-
-
-        <div class="links">
+        <div class="links"> 
             <h4>REDES SOCIALES</h4>
             <div class="socials">
                         <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
@@ -190,9 +187,8 @@
                     </div>
                 </div>   
     </footer>
-
+<!--Libreria de javascripts-->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="script.js"> </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
